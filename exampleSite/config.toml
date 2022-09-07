@@ -1,6 +1,6 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
-title = "Simpery"
+title = "Home"
 themesDir = "../.."
 theme = "hugo-winston-theme"
 
