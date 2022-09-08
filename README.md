@@ -109,6 +109,11 @@ Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your b
   showPostsOnHomepage = false
   addFrame = true
   addDot = true
+  {{if eq .Url "404.html"}}
+    Custom 404 Title String
+  {{else}}
+    {{.Title}}
+  {{end}}
 ```
 
 ### Google Analytics
