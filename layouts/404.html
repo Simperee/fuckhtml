@@ -3,7 +3,7 @@
 {{ define "main"}}
     <main id="main">
       <div>
-       <h1 id="title"><a href="{{ "" | relURL }}">Go Home</a></h1>
+       <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
       </div>
     </main>
 {{ end }}
