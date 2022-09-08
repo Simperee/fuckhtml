@@ -6,3 +6,8 @@
   HUGO_VERSION = "0.80.0"
   HUGO_THEME = "repo"
   HUGO_BASEURL = "/"
+
+[[redirects]]
+	from = "/*"
+	to = "/404/"
+	status = 404

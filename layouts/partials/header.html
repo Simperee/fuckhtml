@@ -1,9 +1,4 @@
 <div class='header'>
-  {{if eq .Url "404.html"}}
-    Custom 404 Title String
-  {{else}}
-    {{.Title}}
-  {{end}}
   <a class="header-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   <div class="menu-main">
     <ul>
