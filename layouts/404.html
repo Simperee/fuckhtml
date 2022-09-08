@@ -1,5 +1,11 @@
 {{ define "header_css" }}{{ end }}
 
+{{if eq .Url "404.html"}}
+    Custom 404 Title String
+{{else}}
+    {{.Title}}
+{{end}}
+        
 {{ define "main"}}
     <main id="main">
       <div>

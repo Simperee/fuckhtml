@@ -26,9 +26,3 @@ paginate = 3
   addDot = true
 
   highlightColor = '#7b16ff'
-
-  {{if eq .Url "404.html"}}
-    ustom 404 Title String
-  {{else}}
-    {{.Title}}
-  {{end}}
