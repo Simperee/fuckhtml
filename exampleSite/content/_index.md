@@ -3,6 +3,6 @@ title: Fuck Html
 description: Html fucking sucks.
 ---
 
-The hallway smelt of boiled cabbage and old rag mats. At one end of it a coloured poster, too large for indoor display, had been tacked to the wall. It depicted simply an enormous face, more than a metre wide: the face of a man of about forty-five, with a heavy black moustache and ruggedly handsome features. Winston made for the stairs. It was no use trying the lift. Bingus 
-
-{{< highlight markdown >}} A bunch of code here {{< /highlight >}}
+THis website only exists because the creator of this website (Simpery) despises html because of how many times it has caused hime brain trauma
+which is why this website was made with Hugo. He is trying to find out if Hugo is something he would enjoy or not. Updates on his mental state
+shall be sent here periodically during his journey learning about the Hugo framework.
