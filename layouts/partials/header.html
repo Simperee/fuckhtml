@@ -1,17 +1,28 @@
 <div class='header'>
   <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
   <script>
-    var darkTheme = document.getElementById("dark-mode-theme");
-    
-    function setTheme(mode) {
-        if (mode === "dark") {
-            darkTheme.disabled = false;
-            toggle.className = "fal-fa-sun-o";
-        } else if (mode === "light") {
-            darkTheme.disabled = true;
-            toggle.className = "fal-fa-moon-o";
-        }
-    }
+  var toggle = document.getElementById("dark-mode-toggle");
+  var darkTheme = document.getElementById("dark-mode-theme");
+  
+  toggle.addEventListener("click", () => {
+      if (toggle.className === "fal-fa-moon-o") {
+          setTheme("dark");
+          alert("dark mode on");
+      } else if (toggle.className === "fal-fa-sun-o") {
+          setTheme("light");
+          alert("dark mode off")
+      }
+  });
+  
+  function setTheme(mode) {
+      if (mode === "dark") {
+          darkTheme.disabled = false;
+          toggle.className = "fal-fa-sun-o";
+      } else if (mode === "light") {
+          darkTheme.disabled = true;
+          toggle.className = "fal-fa-moon-o";
+      }
+  }
   </script>
   <a class="header-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   <a id="dark-mode-toggle" class="fal-fa-moon-o">Toggle Dark Mode</a>
