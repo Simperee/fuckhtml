@@ -2,13 +2,8 @@
   <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
   <script>
   function setTheme(mode) {
-      if (mode === "dark") {
-          darkTheme.disabled = false;
-          toggle.className = "fal-fa-sun-o";
-      } else if (mode === "light") {
-          darkTheme.disabled = true;
-          toggle.className = "fal-fa-moon-o";
-      }
+    darkTheme.disabled = false;
+    toggle.className = "fal-fa-sun-o";
   }
   </script>
   <a class="header-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
