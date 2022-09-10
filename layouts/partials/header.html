@@ -11,9 +11,9 @@
     }
     
     toggle.addEventListener("click", () => {
-        if (toggle.className === "fal fa-moon-o") {
+        if (toggle.className === "fal-fa-moon-o") {
             setTheme("dark");
-        } else if (toggle.className === "fal fa-sun-o") {
+        } else if (toggle.className === "fal-fa-sun-o") {
             setTheme("light");
         }
     });
@@ -21,15 +21,15 @@
     function setTheme(mode) {
         if (mode === "dark") {
             darkTheme.disabled = false;
-            toggle.className = "fal fa-sun-o";
+            toggle.className = "fal-fa-sun-o";
         } else if (mode === "light") {
             darkTheme.disabled = true;
-            toggle.className = "fal fa-moon-o";
+            toggle.className = "fal-fa-moon-o";
         }
     }
   </script>
   <a class="header-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-  <a id="dark-mode-toggle" class="fal fa-moon-o">Toggle Dark Mode</a>
+  <a id="dark-mode-toggle" class="fal-fa-moon-o">Toggle Dark Mode</a>
   <div class="menu-main">
     <ul>
         {{ $currentPage := . }}
