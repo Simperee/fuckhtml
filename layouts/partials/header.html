@@ -13,8 +13,10 @@
     toggle.addEventListener("click", () => {
         if (toggle.className === "fal-fa-moon-o") {
             setTheme("dark");
+            alert("dark mode on");
         } else if (toggle.className === "fal-fa-sun-o") {
             setTheme("light");
+            alert("dark mode off")
         }
     });
     
