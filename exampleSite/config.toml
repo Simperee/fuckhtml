@@ -22,6 +22,8 @@ paginate = 3
   showAuthorOnPosts = false
   showPostsOnHomepage = false
 
+  enable_dark_mode = true
+
   addFrame = true
   addDot = true
 

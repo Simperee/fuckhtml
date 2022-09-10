@@ -1,24 +1,7 @@
 <div class='header'>
   <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
   <script>
-    var toggle = document.getElementById("dark-mode-toggle");
     var darkTheme = document.getElementById("dark-mode-theme");
-    var savedTheme = localStorage.getItem("dark-mode-storage") || "light";
-    setTheme(savedTheme);
-    
-    function setTheme(mode) {
-        localStorage.setItem("dark-mode-storage", mode);
-    }
-    
-    toggle.addEventListener("click", () => {
-        if (toggle.className === "fal-fa-moon-o") {
-            setTheme("dark");
-            alert("dark mode on");
-        } else if (toggle.className === "fal-fa-sun-o") {
-            setTheme("light");
-            alert("dark mode off")
-        }
-    });
     
     function setTheme(mode) {
         if (mode === "dark") {
