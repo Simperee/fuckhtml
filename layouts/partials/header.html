@@ -2,12 +2,25 @@
   {{ $style := resources.Get "css/dark.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ $style.Permalink }}">
   <script>
-  var darkTheme = document.getElementById("dark-mode-theme")
+  var toggle = document.getElementById("dark-mode-toggle");
+  var darkTheme = document.getElementById("dark-mode-theme");
 
-  function setTheme() {
-    alert("balls")
-    darkTheme.disabled = false;
-    toggle.className = "fal-fa-sun-o";
+  toggle.addEventListener("click", () => {
+      if (toggle.className === "fal fa-moon-o") {
+          setTheme("dark");
+      } else if (toggle.className === "fal fa-sun-o") {
+          setTheme("light");
+      }
+  });
+
+  function setTheme(mode) {
+      if (mode === "dark") {
+          darkTheme.disabled = false;
+          toggle.className = "fal fa-sun-o";
+      } else if (mode === "light") {
+          darkTheme.disabled = true;
+          toggle.className = "fal fa-moon-o";
+      }
   }
   </script>
   <a class="header-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
