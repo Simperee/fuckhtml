@@ -24,7 +24,7 @@
   }
   </script>
   <a class="header-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-  <a class="fal-fa-moon-o" onclick="setTheme()">Toggle Dark Mode</a>
+  <a id="dark-mode-toggle" class="fal fa-moon-o">Toggle Dark Mode</a>
   <div class="menu-main">
     <ul>
         {{ $currentPage := . }}
