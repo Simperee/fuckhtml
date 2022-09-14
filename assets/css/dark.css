@@ -7,10 +7,6 @@ html, html * {
   html, body, html::before, body::before {
     background-image: none !important;
   }
-  
-  .dot {
-    color: #7b16ff;
-  }
 
   img, video {z-index: 1}
   cite, cite * {color: #029833 !important}
@@ -18,6 +14,7 @@ html, html * {
   input, textarea {background-color: #333333 !important}
   input, select, button {background-image: none !important}
   a {background-color: rgba(255, 255, 255, 0.01) !important}
+  .dot {color: #7b16ff !important}
   
   :before {color: #eeeeee !important}
   :link, :link * {color: #8db2e5 !important}
