@@ -1,5 +1,6 @@
 <div class='header'>
-  <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
+  {{ $style := resources.Get "css/dark.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ $style.Permalink }}">
   <script>
   var darkTheme = document.getElementById("dark-mode-theme")
 
