@@ -8,6 +8,10 @@ html, html * {
     background-image: none !important;
   }
   
+  .dot {
+    color: #7b16ff;
+  }
+
   img, video {z-index: 1}
   cite, cite * {color: #029833 !important}
   video {background-color: transparent !important}
