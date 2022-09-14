@@ -11,7 +11,7 @@ html, html * {
   img, video {z-index: 1}
   cite, cite * {color: #029833 !important}
   video {background-color: transparent !important}
-  input, textarea {background-color: #333333 !important}
+  input, textarea {background-color: #292929 !important}
   input, select, button {background-image: none !important}
   a {background-color: rgba(255, 255, 255, 0.01) !important}
   .dot {color: #7b16ff !important}
