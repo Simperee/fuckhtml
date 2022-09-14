@@ -1,7 +1,7 @@
 <div class='header'>
   {{ $style := resources.Get "css/dark.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ $style.Permalink }}">
-  <link disabled id="dark-mode-socials" type="application/json" href="dark-social.json">
+  <link disabled id="dark-mode-socials" rel="contents" type="application/json" href="dark-social.json">
   <a class="header-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   <a id="dark-mode-toggle" class="fal fa-moon-o">Toggle Dark Mode</a>
   <script>
