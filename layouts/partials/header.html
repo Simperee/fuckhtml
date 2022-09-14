@@ -2,7 +2,7 @@
   {{ $style := resources.Get "css/dark.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ $style.Permalink }}">
   <a class="header-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-  <a class="fal-fa-moon-o" onclick="setTheme()">Toggle Dark Mode</a>
+  <a id="dark-mode-toggle" class="fal fa-moon-o">Toggle Dark Mode</a>
   <script>
   var toggle = document.getElementById("dark-mode-toggle");
   var darkTheme = document.getElementById("dark-mode-theme");
