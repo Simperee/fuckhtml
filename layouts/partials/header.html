@@ -3,7 +3,7 @@
   {{ $style := resources.Get "css/dark.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ $style.Permalink }}">
   <a class="header-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-  <a id="dark-mode-toggle" class="fal fa-moon-o" class="fa-brands fa-discord">t</a>
+  <a id="dark-mode-toggle" class="fa-regular fa-moon">t</a>
   <script>
   var toggle = document.getElementById("dark-mode-toggle");
   var darkTheme = document.getElementById("dark-mode-theme");
@@ -11,9 +11,9 @@
   setTheme(savedTheme);
 
   toggle.addEventListener("click", () => {
-      if (toggle.className === "fal fa-moon-o") {
+      if (toggle.className === "fa-regular fa-moon") {
           setTheme("dark");
-      } else if (toggle.className === "fal fa-sun-o") {
+      } else if (toggle.className === "fa-regular fa-sun") {
           setTheme("light");
       }
   });
@@ -22,10 +22,10 @@
         localStorage.setItem("dark-mode-storage", mode);
       if (mode === "dark") {
           darkTheme.disabled = false;
-          toggle.className = "fal fa-sun-o";
+          toggle.className = "fa-regular fa-sun";
       } else if (mode === "light") {
           darkTheme.disabled = true;
-          toggle.className = "fal fa-moon-o";
+          toggle.className = "fa-regular fa-moon";
       }
   }
   </script>
