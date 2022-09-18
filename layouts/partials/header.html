@@ -11,6 +11,13 @@
 
   function setTheme(mode) {
     localStorage.setItem("dark-mode-storage", mode);
+    if (mode === "dark") {
+          darkTheme.disabled = false;
+          toggle.className = "fal fa-sun-o";
+      } else if (mode === "light") {
+          darkTheme.disabled = true;
+          toggle.className = "fal fa-moon-o";
+      }
     }
 
   toggle.addEventListener("click", () => {
