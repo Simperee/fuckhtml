@@ -18,7 +18,9 @@ sectus his tamen. Hora graves iam prospiciunt, subito spargit germanam _utve_,
 inmeritas frontemque tempora. Frustra stratosque possim trepidare squamis, os,
 tum ipse prodesse acuta Phobetora e viscera, munera!
 
-Me llama {{< glossary_tooltip text="cluster" term_id="cluster" >}} bingus
+{% raw %}
+About twenty years ago {{%/* tooltip */%}}Jobs{{%/* definition */%}}Steve Jobs, legendary founder of Apple.{{%/* /definition */%}}{{%/* /tooltip */%}} and Wozniak, the founders of Apple, came up with the very strange idea of selling information processing machines for use in the home.
+{% endraw %}
 
 - Peraravit Themis deserat et stetit taedae quodcumque
 - Grave invitae usque et terraque
