@@ -23,6 +23,8 @@ tum ipse prodesse acuta Phobetora e viscera, munera!
 - Spargitque hi dixi
 - Danais oris Ulixes
 
+{{< glossary_tooltip text="cluster" term_id="cluster" >}}
+
 ![Street Art Image](https://source.unsplash.com/GqpbdngfiLo/600x400)
 
 ## Siqua transieram in parte
