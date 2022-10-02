@@ -21,9 +21,7 @@ tum ipse prodesse acuta Phobetora e viscera, munera!
 - Peraravit Themis deserat et stetit taedae quodcumque
 - Grave invitae usque et terraque
 - Spargitque hi dixi
-- Danais oris Ulixes
-
-{{< glossary_tooltip text="cluster" term_id="cluster" >}}
+- Danais oris [Ulixes]("Testing my balls")
 
 ![Street Art Image](https://source.unsplash.com/GqpbdngfiLo/600x400)
 
