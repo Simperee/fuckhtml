@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /posts/language-perfect/
+Disallow: /posts/sanity-not-statistical/
+Disallow: /posts/destruction-of-words/
+Disallow: /404
+
+Sitemap: https://fuckht.ml/sitemap.xml
