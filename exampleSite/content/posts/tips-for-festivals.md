@@ -38,3 +38,5 @@ It's entirely acceptable if you want to separate from your pals and attend a few
 ![Carry Cash](https://content.fortune.com/wp-content/uploads/2022/07/GettyImages-1306726746-e1657549137485.jpg)
 
 Although bringing cash to a music festival may seem paradoxical, I can guarantee you that it's a wise decision because many of the food vendors and other vendors might not be keen on accepting credit card payments. And you don't want to spend the night without food, do you? Store some cash in your treasured fanny pack rather than taking the chance of losing your credit card on the crowded dance floor. Distribute your money across your possessions, such as your pockets, the bottoms of your shoes, the cover of your phone, etc., so that even if you lose a tenner from one place, you still have a few more to fall back on.
+
+(This webpage was made as part of a school project)
