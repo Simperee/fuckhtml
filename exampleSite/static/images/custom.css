@@ -1,0 +1,49 @@
+:root {
+	--dtransparencycolor:			0,0,0;
+	--dtransparencyalpha:			0.15;
+	--dmessagetransparency:			0.5;
+	--dguildchanneltransparency:	0.15;
+	--dmemberlisttransparency:		0.0;
+	--daccentcolor:					190,78,180;
+	
+	--dfont:						Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+	--dtextshadow:					transparent;
+	
+	--dbackground:					url(https://vsthemes.org/uploads/generator/preview.jpeg);
+	--dbackgroundsize:				cover;
+	--dbackgroundposition:			center;
+	--dblur:						unset;
+	--dbackdrop:					rgba(0,0,0,0.85);
+
+	--vtransparencycolor:			var(--transparencycolor,			var(--dtransparencycolor));
+	--vtransparencyalpha:			var(--transparencyalpha,			var(--dtransparencyalpha));
+	--vmessagetransparency:			var(--messagetransparency,			var(--dmessagetransparency));
+	--vusechatbubbles: 				calc(var(--vmessagetransparency) / (var(--vmessagetransparency) + 0.00000000000000000000001));
+	--vguildchanneltransparency:	var(--guildchanneltransparency,		var(--dguildchanneltransparency));
+	--vmemberlisttransparency:		var(--memberlistransparency,		var(--dmemberlisttransparency));
+	--vaccentcolor2:				var(--vaccentcolor);
+	--vlinkcolor:					var(--vaccentcolor);
+	
+	--vfont:						var(--font,							var(--dfont));
+	--vtextshadow:					var(--textshadow,					var(--dtextshadow));
+	
+	--vbackground:					var(--background,					var(--dbackground));
+	--vbackgroundposition:			var(--backgroundposition,			var(--dbackgroundposition));
+	--vbackgroundsize:				var(--backgroundsize,				var(--dbackgroundsize));
+	--vbackgroundblur:				var(--backgroundblur,				var(--dblur));
+	
+	--vpopout:						var(--popout,						var(--vbackground));
+	--vpopoutposition:				var(--backgroundposition,			var(--vbackgroundposition));
+	--vpopoutsize:					var(--popoutsize,					var(--vbackgroundsize));
+	--vpopoutblur:					var(--popoutblur,					var(--vbackgroundblur));
+	
+	--vbackdrop:					var(--backdrop,						var(--dbackdrop));
+	--vbackdropposition:			var(--backgroundposition,			var(--vbackgroundposition));
+	--vbackdropsize:				var(--backdropsize,					var(--vbackgroundsize));
+	--vbackdropblur:				var(--backdropblur,					var(--vbackgroundblur));
+
+	--fontwhite1: 					255,255,255;
+	--fontwhite2: 					210,210,210;
+	--fontwhite3: 					170,170,170;
+	--fontwhite4: 					120,120,120;
+}
