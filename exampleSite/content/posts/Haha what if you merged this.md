@@ -2,7 +2,7 @@
 title: Freaky Day Out
 date: 1995-10-05
 description: 'Hahahahaha i love you so much hahahahahahah'
-image: images/freakyfriday.jpg
+image: images/freakyfriday.png
 ---
 
 ## Haiiii SIMPERY I LOVE YOU
